@@ -9,6 +9,7 @@ argo-cd:
     spec:
       template:
         spec:
+          automountServiceAccountToken: true
           containers:
           - name: argocd-repo-server
             volumeMounts:
@@ -22,11 +23,14 @@ argo-cd:
             - name: download-tools
               image: alpine:3.8
               command: [sh, -c]
+              env:
+              - name: AVP_VERSION
+                value: "1.7.0"
               args:
-                - wget -O argocd-vault-plugin
-                  https://github.com/argoproj-labs/argocd-vault-plugin/releases/download/v1.6.0/argocd-vault-plugin_1.6.0_linux_amd64
-                                        
-                  chmod +x argocd-vault-plugin &&\
+                - >-
+                  wget -O argocd-vault-plugin
+                  https://github.com/argoproj-labs/argocd-vault-plugin/releases/download/v${AVP_VERSION}/argocd-vault-plugin_${AVP_VERSION}_linux_amd64 &&
+                  chmod +x argocd-vault-plugin &&
                   mv argocd-vault-plugin /custom-tools/
               volumeMounts:
                 - mountPath: /custom-tools
