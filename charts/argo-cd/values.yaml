@@ -34,6 +34,11 @@ argo-cd:
     extraArgs:
       - --insecure
     config:
+      configManagementPlugins: |-
+        - name: argocd-vault-plugin
+          generate: 
+            command: ["argo-vault-plugin"]
+            args: ["generate", "./"]
       repositories: |
         - type: helm
           name: stable
