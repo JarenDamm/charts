@@ -37,7 +37,7 @@ argo-cd:
       configManagementPlugins: |-
         - name: argocd-vault-plugin
           generate: 
-            command: ["argo-vault-plugin"]
+            command: ["argocd-vault-plugin"]
             args: ["generate", "./"]
       repositories: |
         - type: helm
