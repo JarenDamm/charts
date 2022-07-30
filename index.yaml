@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  argomanage:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-07-30T23:10:23.22394569Z"
+    description: A Helm chart for Kubernetes
+    digest: 5e8a40ef958553e9de3ad9c056cc63c0ba929e72b1b8191f0a7ea2bcdec6a350
+    icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
+    name: argomanage
+    type: application
+    urls:
+    - argomanage-1.0.3.tgz
+    version: 1.0.3
+generated: "2022-07-30T23:10:23.223410386Z"
