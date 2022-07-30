@@ -3,7 +3,18 @@ entries:
   argomanage:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-07-30T23:47:28.989073031Z"
+    created: "2022-07-30T23:58:55.724536294Z"
+    description: A Helm chart for Kubernetes
+    digest: 7a534977c8f6cd3ed17fbb3b68505920f638a0c2a89c74dc788b958104c39aad
+    icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
+    name: argomanage
+    type: application
+    urls:
+    - argomanage-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-07-30T23:58:55.723806675Z"
     description: A Helm chart for Kubernetes
     digest: 34c07cc8934a305c1ff0f8192448afd4be3f509bfe64f8bc7d33f715cd6e0b3c
     icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
@@ -14,7 +25,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-07-30T23:47:28.987678058Z"
+    created: "2022-07-30T23:58:55.723224359Z"
     description: A Helm chart for Kubernetes
     digest: 05684febe509fd8881412a28406e07d6293cd106fccf4100f974e931b4c85c7d
     icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
@@ -25,7 +36,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-07-30T23:47:28.986967477Z"
+    created: "2022-07-30T23:58:55.722288834Z"
     description: A Helm chart for Kubernetes
     digest: 5e8a40ef958553e9de3ad9c056cc63c0ba929e72b1b8191f0a7ea2bcdec6a350
     icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
@@ -34,4 +45,4 @@ entries:
     urls:
     - argomanage-1.0.3.tgz
     version: 1.0.3
-generated: "2022-07-30T23:47:28.986079176Z"
+generated: "2022-07-30T23:58:55.721876823Z"
